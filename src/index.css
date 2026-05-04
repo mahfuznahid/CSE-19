@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home,
+#about,
+#students,
+#toppers,
+#photo-gallery,
+#contact {
+  scroll-margin-top: 5rem;
+}
