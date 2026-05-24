@@ -82,7 +82,7 @@ export default function Contact() {
               </h3>
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
                     <svg
                       className="w-6 h-6 text-blue-600"
                       fill="none"
@@ -107,7 +107,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center">
                     <svg
                       className="w-6 h-6 text-green-600"
                       fill="none"
@@ -129,7 +129,7 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                  <div className="shrink-0 w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                     <svg
                       className="w-6 h-6 text-purple-600"
                       fill="none"
@@ -294,7 +294,7 @@ export default function Contact() {
               className={`bg-green-50 border border-green-200 rounded-lg p-4 max-w-md w-full shadow-lg transition-opacity duration-500 ${isDisappearing ? "opacity-0" : "opacity-100"}`}
             >
               <div className="flex items-center">
-                <div className="flex-shrink-0">
+                <div className="shrink-0">
                   <svg
                     className="h-5 w-5 text-green-400"
                     fill="none"
@@ -317,7 +317,7 @@ export default function Contact() {
                     Thank you for your message. We'll get back to you soon.
                   </p>
                 </div>
-                <div className="ml-4 flex-shrink-0">
+                <div className="ml-4 shrink-0">
                   <button
                     onClick={() => {
                       setIsDisappearing(true);
