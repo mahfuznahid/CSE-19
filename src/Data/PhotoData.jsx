@@ -13,6 +13,7 @@ import img12 from "../assets/Images/VivaBoys.jpg";
 import img13 from "../assets/Images/BBQNight2026.jpg";
 import img14 from "../assets/Images/JnUVarsityDay.jpg";
 import img15 from "../assets/Images/LateNightMatch.jpg";
+import img16 from "../assets/Images/FootballBoys.jpg";
 
 let photos = [
   {
@@ -90,6 +91,11 @@ let photos = [
     id: 15,
     src: img15,
     title: "LateNightMatch.jpg",
+  },
+  {
+    id: 16,
+    src: img16,
+    title: "FootballBoys.jpg",
   },
 ];
 export default photos;
