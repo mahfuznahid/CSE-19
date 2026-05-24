@@ -119,11 +119,9 @@ export default function Header(props) {
         </div>
 
         {/* Mobile Navigation Menu (visible only on sm and below) */}
-
-        {/* Mobile Menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out z-50 ${
-            isMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
+            isMenuOpen ? "max-h-76 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <ul className="flex flex-col gap-4 list-none m-0 p-4 bg-[#0F172A] border-t border-[#334155]">
