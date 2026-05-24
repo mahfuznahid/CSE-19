@@ -45,6 +45,14 @@ export default function Footer(props) {
                 <li>
                   <a
                     className="block rounded-xl px-3 py-2 text-sm sm:text-base text-[#F8FAFC] hover:text-[#14B8A6] transition"
+                    href="#crs"
+                  >
+                    CRs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="block rounded-xl px-3 py-2 text-sm sm:text-base text-[#F8FAFC] hover:text-[#14B8A6] transition"
                     href="#toppers"
                   >
                     Toppers

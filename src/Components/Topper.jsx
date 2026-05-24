@@ -2,10 +2,10 @@ import toppers from "./../Data/TopperData";
 
 export default function Topper() {
   return (
-    <div className="contactSection py-12 px-4 bg-slate-50" id="toppers">
+    <div className="contactSection py-12 px-4 bg-[#1E293B]" id="toppers">
       <div className="max-w-8xl mx-auto text-center">
-        <h2 className="text-3xl text-[#1E293B] font-bold mb-6">Toppers</h2>
-        <h3 className="text-xl text-[#1E293B] font-semibold mb-4">
+        <h2 className="text-3xl text-white font-bold mb-6">Toppers</h2>
+        <h3 className="text-xl text-white font-semibold mb-4">
           First Semester
         </h3>
         <div className="grid gap-4 sm:grid-cols-4">

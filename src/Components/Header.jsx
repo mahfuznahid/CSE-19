@@ -13,6 +13,13 @@ export default function Header(props) {
 
   return (
     <div>
+      {/* Backdrop Overlay */}
+      {isMenuOpen && (
+        <div
+          className="md:hidden fixed inset-0 bg-black/40 backdrop-blur-sm z-40 transition-opacity duration-300"
+          onClick={closeMenu}
+        />
+      )}
       <nav className="bg-[#1E293B] h-16 sm:h-18 fixed top-0 left-0 w-full z-50">
         <div className="flex justify-between items-center p-2 sm:p-3 md:justify-around">
           {/* Logo and Moto */}
@@ -51,6 +58,14 @@ export default function Header(props) {
                 href="#students"
               >
                 Students
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-[#F8FAFC] no-underline hover:text-[#14B8A6] transition duration-300"
+                href="#crs"
+              >
+                CRs
               </a>
             </li>
             <li>
@@ -104,8 +119,10 @@ export default function Header(props) {
         </div>
 
         {/* Mobile Navigation Menu (visible only on sm and below) */}
+
+        {/* Mobile Menu */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out z-50 ${
             isMenuOpen ? "max-h-64 opacity-100" : "max-h-0 opacity-0"
           }`}
         >
@@ -135,6 +152,15 @@ export default function Header(props) {
                 onClick={closeMenu}
               >
                 Students
+              </a>
+            </li>
+            <li>
+              <a
+                className="text-[#F8FAFC] no-underline hover:text-[#14B8A6] transition duration-300 block text-base"
+                href="#crs"
+                onClick={closeMenu}
+              >
+                CRs
               </a>
             </li>
             <li>

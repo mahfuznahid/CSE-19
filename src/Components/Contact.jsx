@@ -59,10 +59,7 @@ export default function Contact() {
   };
 
   return (
-    <div
-      className="contactSection py-16 px-4 bg-gradient-to-br from-slate-50 to-blue-50"
-      id="contact"
-    >
+    <div className="contactSection py-16 px-4 " id="contact">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-12">
