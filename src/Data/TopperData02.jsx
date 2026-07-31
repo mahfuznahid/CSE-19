@@ -1,9 +1,9 @@
-import img0 from "../assets/StudentImage/UnknownMale.jpg";
 import img1 from "../assets/StudentImage/UnknownFemale.png";
 import img2 from "../assets/StudentImage/Masum.png";
 import img3 from "../assets/StudentImage/Jim.jpg";
 import img4 from "../assets/StudentImage/Tahmeed.jpg";
 import img5 from "../assets/StudentImage/Nailah.jpg";
+import img6 from "../assets/StudentImage/Abrar.jpg";
 
 let toppers02 = [
   {
@@ -28,7 +28,7 @@ let toppers02 = [
     Position: "3rd",
   },
   {
-    Image: img0,
+    Image: img6,
     StudentName: "Md Abrar Foysal Prince",
     StudentID: "B230305013",
     CGPA: "3.87",

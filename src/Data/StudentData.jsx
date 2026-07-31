@@ -37,6 +37,8 @@ import img35 from "../assets/StudentImage/Torongo.jpg";
 import img36 from "../assets/StudentImage/Udoy.jpg";
 import img37 from "../assets/StudentImage/Mahi.jpg";
 import img38 from "../assets/StudentImage/Riadul.jpg";
+import img39 from "../assets/StudentImage/Abrar.jpg";
+import img40 from "../assets/StudentImage/Arafat.jpg";
 
 let students = [
   {
@@ -140,7 +142,7 @@ let students = [
     LinkedIn: "",
   },
   {
-    Image: img0,
+    Image: img39,
     StudentName: "Md Abrar Foysal Prince",
     StudentID: "B230305013",
     Email: "abrarprince0909@gmail.com",
@@ -300,7 +302,7 @@ let students = [
     LinkedIn: "",
   },
   {
-    Image: img0,
+    Image: img40,
     StudentName: "Shahriar Arafat",
     StudentID: "B230305032",
     Email: "",
