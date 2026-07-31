@@ -9,7 +9,7 @@ export default function Topper() {
         <h3 className="text-xl text-white font-semibold mb-4">
           First Semester
         </h3>
-        <div className="grid gap-4 sm:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-4 mb-4">
           {toppers.map((citem) => (
             <div className="flex bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-4">
               {/* Image */}
@@ -43,7 +43,7 @@ export default function Topper() {
           ))}
         </div>
 
-        <h3 className="text-xl text-white font-semibold mt-4 mb-4">
+        <h3 className="text-xl text-white font-semibold mb-4">
           Second Semester
         </h3>
         <div className="grid gap-4 sm:grid-cols-4">
